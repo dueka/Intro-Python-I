@@ -33,7 +33,10 @@ print (lang2man.get('pete'))
 print(lang2man.__len__())
 
 # Add an item to a dictionary
-lang2man = {'Chainz': 'chinaza'}
-print(lang2man)
+# print(lang2man.__new__('Chainz': 'chinaza'))
 
-print(lang2man.pop('pete'))
+# Remove an item from a dictionary
+print(lang2man.popitem())
+
+# Empty a dictionary
+print(lang2man.clear())
