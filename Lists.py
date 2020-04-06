@@ -39,3 +39,11 @@ print(Ozark)
 # Remove an item at a specified index
 del Ozark[1]
 print(Ozark)
+
+# Empty a list
+Ozark1 = Ozark
+del Ozark[:]
+print(Ozark1) 
+
+# Use the list() construcotor to make a list
+print(list())
