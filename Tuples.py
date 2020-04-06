@@ -28,3 +28,6 @@ print(due.__contains__('rob'))
 print(due.__len__())
 
 # Delete a tuple
+n=2
+due = due[ : n] + due[n+1 :]
+print(due)
