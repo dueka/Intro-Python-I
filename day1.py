@@ -74,4 +74,4 @@ print(f'Name: {d2["name"]} \nAge: { d2["age"]}')
 # iterate over dict
 for k in d2:
     print(f"{k.capitalize()}: is {d2[k]}")
-# 
+# ``

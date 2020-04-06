@@ -24,3 +24,12 @@ def AveragePace():
     time = 21.15
     return (kilometres / time)
 print(AveragePace())
+
+def AverageSpeed():
+    distance = int
+    time = int
+    input('Enter Distance : ')
+    input('Enter Time :')
+    return (distance/time)
+print(AverageSpeed())
+
